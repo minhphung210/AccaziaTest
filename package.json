@@ -1,0 +1,35 @@
+{
+  "name": "Tinder",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator 'iPhone 6s'",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "moment": "^2.26.0",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-deck-swiper": "https://github.com/minhphung210/react-native-deck-swiper.git",
+    "react-native-view-overflow": "^0.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/runtime": "^7.10.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.2.0",
+    "jest": "^26.0.1",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
