@@ -22,6 +22,8 @@ const fakeData = [1, 2, 3];
 
 console.disableYellowBox = true;
 
+// feature A
+
 import Card from './Card';
 
 class App extends Component {
