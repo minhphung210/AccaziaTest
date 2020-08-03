@@ -73,6 +73,7 @@ class App extends Component {
     }
     if (index === 2) {
       this.favorites.push(this.item3);
+      // index 2
     }
   };
 
