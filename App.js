@@ -23,7 +23,7 @@ const fakeData = [1, 2, 3];
 console.disableYellowBox = true;
 
 // feature A
-// comit 1
+// comit 2 
 
 import Card from './Card';
 
