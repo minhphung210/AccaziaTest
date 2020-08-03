@@ -23,6 +23,7 @@ const fakeData = [1, 2, 3];
 console.disableYellowBox = true;
 
 // feature A
+// comit 1
 
 import Card from './Card';
 
@@ -32,6 +33,7 @@ class App extends Component {
     this.item1 = null;
     this.item2 = null;
     this.item3 = null;
+    this.item4 = null;
     this.favorites = [];
   }
 
@@ -61,7 +63,7 @@ class App extends Component {
     if (index === 2) {
       this.item2 = e;
     }
-    if (index === 3) {
+    if (index === 34) {
       this.item3 = e;
     }
   };
